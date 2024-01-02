@@ -27,6 +27,7 @@ function abcd(){
 function demo(){
     if(restart.textContent=='Restart'){
         fun2();
+        a=0,b=0,c=0,d=0;
         start.innerHTML='Start';
         hour.textContent='00';
         minute.textContent='00';
@@ -60,6 +61,6 @@ function fun1(){
             d++;
             milisecond.textContent=`${d.toString().padStart(2,"0")}`;
         }
-    },2)
+    },10)
     
 }
